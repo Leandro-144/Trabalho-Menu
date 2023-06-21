@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="utf-8">
+            <title>Início</title>
+            <meta name="viewport" content="width=device width, initial-scale=1.0">
+            <link rel = "stylesheet" type= "text/css" href = "trabalho.css"> 
+        </head>
+        <body>
+            <div id="navbar">
+                <a href="trabalho.html">Piadas</a>
+                <a class="active" href="trabalho 2.html">Jogos</a>
+                <a href="https://github.com/">Redirect</a>
+            </div>
+            
+            <article id="content">
+                <h3>Lista dos jogos melhor avaliados no Metacritic</h3>
+
+                <p>1. The Legend of Zelda: Ocarina of Time - nota: 98</p><br/>
+                <p>2. GTA IV - nota: 98</p><br/>
+                <p>3. SoulCalibur - nota: 98</p><br/>
+                <p>4. Tony Hawk's Pro Skater 2 - nota:98</p><br/>
+                <p>5. Super Mario Galaxy(1 e 2) - nota: 97</p><br/>
+                <p>6. Red Dead Redemption 2 - nota: 97</p><br/>
+                <p>7. Disco Elysium: The Final Cut - nota: 97</p><br/>
+                <p>8. The Legend of Zelda: Breath of the Wild - nota:97</p><br/>
+                <p>9. Tony Hawk's Pro Skater 3 - nota: 97</p><br/>
+                <p>10. Metroid Prime</p><br/>
+                
+            </article>
+          
+            <script>
+                window.onscroll = function() {myFunction()};
+
+                var navbar = document.getElementById("navbar");
+                var sticky = navbar.offsetTop;
+
+                function myFunction() {
+                    if (window.pageYOffset >= sticky){
+                        navbar.classList.add("sticky")
+                    } else {
+                        navbar.classList.remove("sticky")
+                    }
+                }
+            </script>
+        </body>
+        
+    </html>

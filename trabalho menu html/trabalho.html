@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="utf-8">
+            <title>Início</title>
+            <meta name="viewport" content="width=device width, initial-scale=1.0">
+            <link rel = "stylesheet" type= "text/css" href = "trabalho.css">
+            
+        </head>
+        <body>
+            <div id="navbar">
+                <a class="active" href="trabalho.html">Piadas</a>
+                <a href="trabalho 2.html">Jogos</a>
+                <a href="https://github.com/">Redirect</a>
+            </div>
+            
+            <article id="content">
+                <h3>Sapato</h3>
+                <p>Um sapato contou uma piada para sua mãe</p>
+                <p>Sua mãe riu e lhe disse:</p>
+                <p>- Nossa filho, você é muito 'ENGRAXADO'</p>
+                <br/>
+                <h3>Pontinho verde</h3>
+                <p>O que é um pontinho verde no aéroporto?</p>
+                <p>É um GREENgo</p>
+                <br/>
+                <h3>Homem e a Pedra</h3>
+                <p>Por que o homem estava com a pedra no ouvido?</p>
+                <p>É porque ele estava ouvindo 'ARROCHA'</p>
+                <br/>
+                <h3>Formiga</h3>
+                <p>Por que a formiga só não pode ter 5 amigas?</p>
+                <p>Porque senão seria five-Migas</p>
+                <br/>
+                <h3>Carro Revolucionário</h3>
+                <p>Qual é o carro movido a suco?</p>
+                <p>É o MusTANG</p>
+                <br/>
+                
+                
+            </article>
+          
+            <script>
+                window.onscroll = function() {myFunction()};
+
+                var navbar = document.getElementById("navbar");
+                var sticky = navbar.offsetTop;
+
+                function myFunction() 
+                {
+                    if (window.pageYOffset >= sticky)
+                    {
+                        navbar.classList.add("sticky")
+                    } 
+                    else 
+                    {
+                        navbar.classList.remove("sticky")
+                    }
+                }
+            </script>
+        </body>
+        
+    </html>
